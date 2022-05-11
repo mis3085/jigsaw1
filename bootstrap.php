@@ -14,5 +14,32 @@
  * });
  */
 
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+
+Str::macro('trans', function ($key, $locale) {
+    $trans = include __DIR__ . '/trans.php';
+
+    return Arr::get($trans, "{$locale}.{$key}", $key);
+});
+
+if (! function_exists('__')) {
+    /**
+     * Translate the given message.
+     *
+     * @param  string|null  $key
+     * @param  string|null  $locale
+     * @return string|array|null
+     */
+    function __($key = null, $locale = null)
+    {
+        if (is_null($key)) {
+            return $key;
+        }
+
+        return Str::trans($key, $locale);
+    }
+}
+
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
 $events->afterBuild(App\Listeners\GenerateIndex::class);

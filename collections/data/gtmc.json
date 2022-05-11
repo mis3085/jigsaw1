@@ -1,0 +1,1286 @@
+{
+    "zhtw": {
+        "homepage": {
+            "works": [
+                {
+                    "title": "品牌形象官網",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/APEX/APEX-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/web-apex.html",
+                    "sub_title": "雃博 APEX"
+                },
+                {
+                    "title": "網路行銷活動策劃",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/AUDIO-TECHNICA/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/webAudioTechnica.html",
+                    "sub_title": "鐵三角 audio-technica"
+                },
+                {
+                    "title": "策展解決方案",
+                    "image": "https://www.gtmc.com.tw/proimages/products/APP_Work/Exhibition/home_Exhibition.jpg",
+                    "link": "https://www.gtmc.com.tw/exhibition-solution.html",
+                    "sub_title": "Curator solution"
+                },
+                {
+                    "title": "Solteam",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/Solteam/solteam-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/335-崧騰醫療.html",
+                    "sub_title": "崧騰"
+                },
+                {
+                    "title": "形象影片",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Video/Company-Video/VISIONWIDE-TECH/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/video-visionwide-tech.html",
+                    "sub_title": "喬崴進 VISIONWIDE-TECH"
+                },
+                {
+                    "title": "品牌電商",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/AUDIO-TECHNICA/E-commerce/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/web-audio-technica.html",
+                    "sub_title": "鐵三角 audio-technica"
+                },
+                {
+                    "title": "3D 互動展示解決方案",
+                    "image": "https://www.gtmc.com.tw/proimages/products/APP_Work/3D/home_3d.jpg",
+                    "link": "https://www.gtmc.com.tw/3D-display-solution.html",
+                    "sub_title": "3D Display Solution"
+                },
+                {
+                    "title": "線上策展",
+                    "image": "https://www.gtmc.com.tw/proimages/products/VR-Exhibition/Economic/Economic-index-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/ministry-of-economic-affairs-virtual-exhibition.html",
+                    "sub_title": "經濟部商業司"
+                },
+                {
+                    "title": "形象官網",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/MAXTONE/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/web-maxtone.html",
+                    "sub_title": "MAXTONE"
+                },
+                {
+                    "title": "企業形象官網",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/CRMTO/CRMTO-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/web-crmto.html",
+                    "sub_title": "成長實業CRMTO"
+                },
+                {
+                    "title": "展售加速數位方案",
+                    "image": "https://www.gtmc.com.tw/proimages/products/APP_Work/ERP_CRM/home_ERP_CRM.jpg",
+                    "link": "https://www.gtmc.com.tw/integrated-erp-and-crm.html",
+                    "sub_title": "Digital solution to boost sales & after service"
+                },
+                {
+                    "title": "網路行銷活動策劃",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/bestsound/bestsound-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/web-best-sound.html",
+                    "sub_title": "虹韻助聽器 Best Sound"
+                },
+                {
+                    "title": "形象影片",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Video/Company-Video/RONGFU/video-RONGFU-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/video-rongfu.html",
+                    "sub_title": "榮富工業 RONGFU"
+                },
+                {
+                    "title": "企業形象官網",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/SWELL/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/web-swell.html",
+                    "sub_title": "界升工業 SWELL"
+                },
+                {
+                    "title": "線上策展",
+                    "image": "https://www.gtmc.com.tw/proimages/products/VR-Exhibition/ecos/ecos-index-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/institute-information-industry-virtual-exhibition.html",
+                    "sub_title": "經濟部工業局"
+                },
+                {
+                    "title": "企業形象影片",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Video/Company-Video/PuriBlood/video-PuriBlood-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/video-puriblood.html",
+                    "sub_title": "普瑞博生技 PuriBlood"
+                },
+                {
+                    "title": "線上策展",
+                    "image": "https://www.gtmc.com.tw/proimages/products/VR-Exhibition/96kuas-sbir/96kuas-sbir-index-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/96kuas-sbir-virtual-exhibition.html",
+                    "sub_title": "高雄市政府"
+                }
+            ],
+            "partners": {
+                "title": "OUR CLIENTSOUR CLIENTS",
+                "description": "客戶滿意是永恆的追求，信任與肯定是成長的不竭源泉，有您的支持是我們不斷前進的最佳動力。客戶滿意是永恆的追求，信任與肯定是成長的不竭源泉，有您的支持是我們不斷前進的最佳動力。",
+                "items": [
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_UBI-Pharma.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_TAITRA.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_AUO.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_PuriBlood.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_tyson-bio.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_Loreal.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_TPI.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_GaleMed.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_moeaidb.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_infineon.jpg"
+                    }
+                ]
+            }
+        },
+        "cases": {
+            "brandings": {
+                "title": "品牌規劃",
+                "items": [
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "title": "TLF",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic4.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "title": "Chenmin",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-sunset.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "title": "PARKSON",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "title": "MAXTONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "title": "CANMES",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "title": "Win Shine",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "title": "Joen Lih",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "title": "TLF",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-txt1.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "title": "Sunmaster",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "title": "Earth Chain",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case018-集泉塑膠工業.html",
+                        "title": "Living Fountain",
+                        "case-link": "https://www.gtmc.com.tw/en/case018-%E9%9B%86%E6%B3%89%E5%A1%91%E8%86%A0%E5%B7%A5%E6%A5%AD.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "title": "Icare",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "title": "Joen Lih",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "title": "SMART SILICONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-productbanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "title": "MAXTONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/NUMEN/NUMEN_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-numen.html",
+                        "title": "NUMEN",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-numen.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/NUMEN/NUMEN_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/NUMEN/NUMEN_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "title": "Elysian",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-mobile.jpg",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "title": "Elysian",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "title": "Campower",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "title": "CANMES",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Long-Hwa/Long-Hwa_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-long-hwa.html",
+                        "title": "Long Hwa",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-long-hwa.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Long-Hwa/Long-Hwa_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Long-Hwa/Long-Hwa_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case-342-鴻達l.html",
+                        "title": "HUNG-TA",
+                        "case-link": "https://www.gtmc.com.tw/en/case-342-%E9%B4%BB%E9%81%94l.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case-342-鴻達l.html",
+                        "title": "HUNG-TA",
+                        "case-link": "https://www.gtmc.com.tw/en/case-342-%E9%B4%BB%E9%81%94l.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-productBanner.jpg"
+                    },
+
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "title": "Win Shine",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-logo.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "title": "MDTK",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-catalog1.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "title": "Earth Chain",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "title": "Win Shine",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "title": "Campower",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-txt2.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PREMETEC/PREMETEC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-premetec.html",
+                        "title": "PREMETEC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-premetec.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PREMETEC/PREMETEC_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PREMETEC/PREMETEC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "title": "TLF",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic3.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "title": "Chenmin",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "title": "OCEAN",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "title": "GTMC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Hsin-lien/Hsin-lien_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-hsin-lien.html",
+                        "title": "Hsin Lien",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-hsin-lien.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Hsin-lien/Hsin-lien_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Hsin-lien/Hsin-lien_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://fast.wistia.com/embed/medias/7m92o3y6qc/swatch",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-vr-exhibition.jpg",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "title": "OCEAN",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "title": "SMART SILICONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-productbanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "title": "Elysian",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "title": "Earth Chain",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "title": "JLC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "title": "JLC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "title": "CANMES",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "title": "OCEAN",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "title": "Chenmin",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "title": "TLF",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-tlf.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Tailift-Landscape/TLF_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Long-Hwa/Long-Hwa_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-long-hwa.html",
+                        "title": "Long Hwa",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-long-hwa.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Long-Hwa/Long-Hwa_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Long-Hwa/Long-Hwa_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-notebook.jpg",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case-342-鴻達l.html",
+                        "title": "HUNG-TA",
+                        "case-link": "https://www.gtmc.com.tw/en/case-342-%E9%B4%BB%E9%81%94l.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/NUMEN/NUMEN_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-numen.html",
+                        "title": "NUMEN",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-numen.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/NUMEN/NUMEN_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/NUMEN/NUMEN_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "title": "Joen Lih",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "title": "JLC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "title": "PARKSON",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-product.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SAN-JYE/SAN-JYE_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-san-jye.html",
+                        "title": "SAN JYE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-san-jye.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SAN-JYE/SAN-JYE_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SAN-JYE/SAN-JYE_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-catalog3.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case018-集泉塑膠工業.html",
+                        "title": "Living Fountain",
+                        "case-link": "https://www.gtmc.com.tw/en/case018-%E9%9B%86%E6%B3%89%E5%A1%91%E8%86%A0%E5%B7%A5%E6%A5%AD.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://fast.wistia.com/embed/medias/7m92o3y6qc/swatch",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "title": "Campower",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "title": "Icare",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/LiYo/LiYo_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-li-yo.html",
+                        "title": "Li Yo",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-li-yo.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/LiYo/LiYo_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/LiYo/LiYo_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "title": "Parkins",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Chin-Hsing/Chin-Hsing_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-chin-hsing.html",
+                        "title": "Chin Hsing",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-chin-hsing.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Chin-Hsing/Chin-Hsing_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Chin-Hsing/Chin-Hsing_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "title": "MDTK",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Hsin-lien/Hsin-lien_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-hsin-lien.html",
+                        "title": "Hsin Lien",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-hsin-lien.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Hsin-lien/Hsin-lien_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Hsin-lien/Hsin-lien_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://embed-fastly.wistia.com/deliveries/512b55dfc6dd425417a7d28941f27f0a.webp?image_crop_resized=960x524",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-catalog2.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "title": "Joen Lih",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-joen-lih.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Joen-Lih/Joen-Lih_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-sunrise.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "title": "MDTK",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "title": "MAXTONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SAN-JYE/SAN-JYE_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-san-jye.html",
+                        "title": "SAN JYE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-san-jye.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SAN-JYE/SAN-JYE_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SAN-JYE/SAN-JYE_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "title": "SMART SILICONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-productbanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case018-集泉塑膠工業.html",
+                        "title": "Living Fountain",
+                        "case-link": "https://www.gtmc.com.tw/en/case018-%E9%9B%86%E6%B3%89%E5%A1%91%E8%86%A0%E5%B7%A5%E6%A5%AD.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "title": "Sunmaster",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Newtaiwan/Newtaiwan-bakery_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-new-taiwan.html",
+                        "title": "New Taiwan",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-new-taiwan.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Newtaiwan/Newtaiwan-bakery_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Newtaiwan/Newtaiwan-bakery_graphic-productBanner.jpg"
+                    }
+                ]
+            },
+            "design": {
+                "title": "網頁設計",
+                "items": [
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "title": "OCEAN",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-ocean.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/OCEAN/OCEAN_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/LiYo/LiYo_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-li-yo.html",
+                        "title": "Li Yo",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-li-yo.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/LiYo/LiYo_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/LiYo/LiYo_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "title": "GTMC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "title": "Parkins",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "title": "Win Shine",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-win-shine.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/win-shine/win-shine_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "title": "Icare",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "title": "Parkins",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "title": "Parkins",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkins.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Parkins/Parkins_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-brand.png",
+                        "main-image": null
+                    }
+                ]
+            },
+            "app": {
+                "title": "系統 · APP開發",
+                "items": [
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "title": "Earth Chain",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-earth-chain.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Earth-Chain/Earth-Chain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Newtaiwan/Newtaiwan-bakery_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-new-taiwan.html",
+                        "title": "New Taiwan",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-new-taiwan.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Newtaiwan/Newtaiwan-bakery_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Newtaiwan/Newtaiwan-bakery_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "title": "Elysian",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-elysian.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Elysian/Elysian_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/TMTS2018/TMTS2018_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-tmts2018.html",
+                        "title": "TMTS2018",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-tmts2018.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/TMTS2018/TMTS2018_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/TMTS2018/TMTS2018_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/TMTS2018/TMTS2018_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-tmts2018.html",
+                        "title": "TMTS2018",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-tmts2018.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/TMTS2018/TMTS2018_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/TMTS2018/TMTS2018_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "title": "Icare",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-icare.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/icaremed/icaremed_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MIZU/MIZU_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-mizu.html",
+                        "title": "MIZU",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-mizu.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MIZU/MIZU_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MIZU/MIZU_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "title": "Campower",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-campower.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Campower/Campower_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-one-page.jpg",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "title": "SMART SILICONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-simo.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/SIMO/SIMO_graphic-productbanner.jpg"
+                    }
+                ]
+            },
+            "filming": {
+                "title": "影音多媒體",
+                "items": [
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case018-集泉塑膠工業.html",
+                        "title": "Living Fountain",
+                        "case-link": "https://www.gtmc.com.tw/en/case018-%E9%9B%86%E6%B3%89%E5%A1%91%E8%86%A0%E5%B7%A5%E6%A5%AD.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Living-Fountain/Living-Fountain_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/mac.png",
+                        "main-image": null
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Ta-Jow/Ta-Jow_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-ta-jow.html",
+                        "title": "Ta Jow",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-ta-jow.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Ta-Jow/Ta-Jow_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Ta-Jow/Ta-Jow_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "title": "PARKSON",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "title": "Chenmin",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-chenmin.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/chenmin/chenmin_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "title": "MAXTONE",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-maxtone.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MAXTONE/MAXTONE_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "title": "GTMC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "title": "GTMC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-gtmc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-device.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/GTMC/GTMC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "title": "MDTK",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-mdtk.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MDTK/MDTK_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "title": "HOSEA",
+                        "case-link": "https://www.gtmc.com.tw/en/product-HOSEA-CISdesignHOSEA.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HOSEA/hosea-page.jpg",
+                        "main-image": null
+                    }
+                ]
+            },
+            "vr": {
+                "title": "VR虛擬展示解決方案",
+                "items": [
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "title": "Sunmaster",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "title": "CANMES",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-canmes.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/CANMES/CANMES_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Chin-Hsing/Chin-Hsing_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-chin-hsing.html",
+                        "title": "Chin Hsing",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-chin-hsing.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Chin-Hsing/Chin-Hsing_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Chin-Hsing/Chin-Hsing_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Ta-Jow/Ta-Jow_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-ta-jow.html",
+                        "title": "Ta Jow",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-ta-jow.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Ta-Jow/Ta-Jow_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Ta-Jow/Ta-Jow_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "title": "Sunmaster",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-sunmaster.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/Sunmaster/sunmaster_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "title": "PARKSON",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-parkson.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/mac.png",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PARKSON/PARKSON_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MIZU/MIZU_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-mizu.html",
+                        "title": "MIZU",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-mizu.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MIZU/MIZU_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/MIZU/MIZU_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/case-342-鴻達l.html",
+                        "title": "HUNG-TA",
+                        "case-link": "https://www.gtmc.com.tw/en/case-342-%E9%B4%BB%E9%81%94l.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/HUNG-TA/HUNG-TA_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PREMETEC/PREMETEC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-premetec.html",
+                        "title": "PREMETEC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-premetec.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PREMETEC/PREMETEC_graphic1.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/PREMETEC/PREMETEC_graphic-productBanner.jpg"
+                    },
+                    {
+                        "image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-Thumbnail.jpg",
+                        "link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "title": "JLC",
+                        "case-link": "https://www.gtmc.com.tw/en/cis-jlc.html",
+                        "content-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic2.jpg",
+                        "main-image": "https://www.gtmc.com.tw/proimages/products/CIS-Design/JLC/JLC_graphic-productBanner.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    "en": {
+        "homepage": {
+            "works": [
+                {
+                    "title": "Best Sound",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/bestsound/bestsound-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/en/web-best-sound.html",
+                    "sub_title": "Best Sound"
+                },
+                {
+                    "title": "Institute for Information Industry",
+                    "image": "https://www.gtmc.com.tw/proimages/products/VR-Exhibition/ecos/ecos-index-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/en/institute-information-industry-virtual-exhibition.html",
+                    "sub_title": "Institute for Information Industry"
+                },
+                {
+                    "title": "3D Display Solution",
+                    "image": "https://www.gtmc.com.tw/proimages/products/APP_Work/3D/home_3d.jpg",
+                    "link": "https://www.gtmc.com.tw/en/3D-display-solution.html",
+                    "sub_title": "3D Display Solution"
+                },
+                {
+                    "title": "Solteam",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/Solteam/solteam-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/335-崧騰醫療.html",
+                    "sub_title": "Solteam"
+                },
+                {
+                    "title": "SWELL",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/SWELL/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/web-swell.html",
+                    "sub_title": "SWELL"
+                },
+                {
+                    "title": "AUDIO-TECHNICA",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/AUDIO-TECHNICA/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/webAudioTechnica.html",
+                    "sub_title": "鐵三角"
+                },
+                {
+                    "title": "Quotation, Specification and After-Sales Solution",
+                    "image": "https://www.gtmc.com.tw/proimages/products/APP_Work/ERP_CRM/home_ERP_CRM.jpg",
+                    "link": "https://www.gtmc.com.tw/en/integrated-erp-and-crm.html",
+                    "sub_title": "Quotation, Specification and After-Sales Solution"
+                },
+                {
+                    "title": "APEX",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/APEX/APEX-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/en/web-apex.html",
+                    "sub_title": "雃博"
+                },
+                {
+                    "title": "Ministry of Economic Affairs",
+                    "image": "https://www.gtmc.com.tw/proimages/products/VR-Exhibition/Economic/Economic-index-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/en/ministry-of-economic-affairs-virtual-exhibition.html",
+                    "sub_title": "Ministry of Economic Affairs"
+                },
+                {
+                    "title": "AUDIO-TECHNICA",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/AUDIO-TECHNICA/E-commerce/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/web-audio-technica.html",
+                    "sub_title": "AUDIO-TECHNICA"
+                },
+                {
+                    "title": "CRMTO",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/CRMTO/CRMTO-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/web-crmto.html",
+                    "sub_title": "成長實業"
+                },
+                {
+                    "title": "MAXTONE",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Web-Design/MAXTONE/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/web-maxtone.html",
+                    "sub_title": "MAXTONE"
+                },
+                {
+                    "title": "RONGFU",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Video/Company-Video/RONGFU/video-RONGFU-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/video-rongfu.html",
+                    "sub_title": "RONGFU"
+                },
+                {
+                    "title": "Exhibition Solution",
+                    "image": "https://www.gtmc.com.tw/proimages/products/APP_Work/Exhibition/home_Exhibition.jpg",
+                    "link": "https://www.gtmc.com.tw/en/exhibition-solution.html",
+                    "sub_title": "Exhibition Solution"
+                },
+                {
+                    "title": "PuriBlood",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Video/Company-Video/PuriBlood/video-PuriBlood-idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/video-puriblood.html",
+                    "sub_title": "PuriBlood"
+                },
+                {
+                    "title": "Kaohsiung City Government",
+                    "image": "https://www.gtmc.com.tw/proimages/products/VR-Exhibition/96kuas-sbir/96kuas-sbir-index-Thumbnail.jpg",
+                    "link": "https://www.gtmc.com.tw/en/96kuas-sbir-virtual-exhibition.html",
+                    "sub_title": "Kaohsiung City Government"
+                },
+                {
+                    "title": "VISIONWIDE-TECH",
+                    "image": "https://www.gtmc.com.tw/proimages/products/Video/Company-Video/VISIONWIDE-TECH/idx-pro.jpg",
+                    "link": "https://www.gtmc.com.tw/en/video-visionwide-tech.html",
+                    "sub_title": "VISIONWIDE-TECH"
+                }
+            ],
+            "partners": {
+                "title": "OUR CLIENTSOUR CLIENTS",
+                "description": "Customer satisfaction is the continued pursuit. Trust and affirmation are the inexhaustible powers of our growth. With your supports, they will be the best driving forces to keep us moving forward.Customer satisfaction is the continued pursuit. Trust and affirmation are the inexhaustible powers of our growth. With your supports, they will be the best driving forces to keep us moving forward.",
+                "items": [
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_UBI-Pharma.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_TAITRA.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_AUO.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_PuriBlood.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_tyson-bio.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_Loreal.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_TPI.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_GaleMed.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_moeaidb.jpg"
+                    },
+                    {
+                        "image_url": "https://www.gtmc.com.tw/proimages/index/partners/partner_logo_infineon.jpg"
+                    }
+                ]
+            }
+        }
+    }
+}

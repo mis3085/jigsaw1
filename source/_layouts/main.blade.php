@@ -16,20 +16,24 @@
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
+        <link rel="preload" as="font">
+        <link rel="preconnect" href="https://images.weserv.nl" />
+        <link rel="dns-prefetch" href="https://images.weserv.nl" />
 
         @if ($page->production)
             <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script> --}}
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
         <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                    <a href="/{{ $page->language }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
 
                         <h1 class="text-lg md:text-2xl text-blue-800 font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
@@ -63,10 +67,16 @@
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
             </ul>
+            <div>{{ number_format(memory_get_usage()) }} / {{ number_format(memory_get_peak_usage()) }}</div>
+            <div>zhtw_ex_companies: {{  count($zhtw_ex_companies) }}</div>
+            <div>zhtw_ex_awards: {{  count($zhtw_ex_awards) }}</div>
+            <div>en_ex_awards: {{  count($en_ex_awards) }}</div>
+            <div>zhtw_ex_categories: {{  count($zhtw_ex_categories) }}</div>
         </footer>
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
+        <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
     </body>
 </html>

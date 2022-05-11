@@ -27,10 +27,10 @@
             >&times;</button>
 
             <transition name="fade">
-                <div v-if="query" class="absolute left-0 right-0 md:inset-auto w-full lg:w-3/4 text-left mb-4 md:mt-10">
-                    <div class="flex flex-col bg-white border border-b-0 border-t-0 border-blue-400 rounded-b-lg shadow-search mx-4 md:mx-0">
+                <div v-if="query" class="absolute left-0 sm:left-auto sm:right-0 lg:inset-0 w-full sm:w-screen sm:max-w-screen-sm  text-left mb-4 md:mt-10">
+                    <div class="flex flex-col bg-white border border-b-0 border-t border-blue-400 rounded-b-lg shadow-search mx-4 md:mx-0">
                         <a
-                            v-for="(result, index) in results"
+                            v-for="(result, index) in results.slice(0, 5)"
                             class="bg-white hover:bg-blue-100 border-b border-blue-400 text-xl cursor-pointer p-4"
                             :class="{ 'rounded-b-lg': (index === results.length - 1) }"
                             :href="result.item.link"
@@ -96,8 +96,11 @@ export default {
     created() {
         axios('/index.json').then(response => {
             this.fuse = new Fuse(response.data, {
-                minMatchCharLength: 6,
-                keys: ['title', 'snippet', 'categories'],
+                minMatchCharLength: 2,
+                distance: 1000,
+                includeScore: true,
+                includeMatches: true,
+                keys: [{name: 'title', weight: 2}, 'snippet'],
             });
         });
     },

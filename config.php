@@ -5,9 +5,13 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Blog Starter Template',
+    'siteName' => 'Static page demonstration',
     'siteDescription' => 'Generate an elegant blog with Jigsaw',
     'siteAuthor' => 'Author Name',
+    'siteLanguages' => [
+        'zhtw' => '繁中',
+        'en' => 'English',
+    ],
 
     // collections
     'collections' => [
@@ -24,9 +28,69 @@ return [
                 });
             },
         ],
+        App\Collections\Category::getName('en') => App\Collections\Category::collect('en', 20),
+        App\Collections\Category::getName('zhtw') => App\Collections\Category::collect('zhtw', 20),
+        App\Collections\Award::getName('en') => App\Collections\Award::collect('en', 100),
+        App\Collections\Award::getName('zhtw') => App\Collections\Award::collect('zhtw', 100),
+        App\Collections\Company::getName('en') => App\Collections\Company::collect('en', 100),
+        App\Collections\Company::getName('zhtw') => App\Collections\Company::collect('zhtw', 100),
+
+        'zhtw_brandings' => [
+            'extends' => '_layouts.case',
+            'language' => 'zhtw',
+            'sort' => 'title',
+            'path' => '{language}/brandings/{slug}',
+            'items' => function ($config) {
+                $json = json_decode(file_get_contents(__DIR__ . '/collections/data/gtmc.json'));
+                $items = $json->zhtw->cases->brandings->items;
+
+                return collect($items)
+                ->groupBy('title')
+                ->map(function ($group) {
+                    return [
+                        'slug' => Str::slug($group->first()->title, '-', 'zh'),
+                        'language' => 'zhtw',
+                        'title' => $group->first()->title,
+                        'content' => '',
+                        'thumbnail' => $group->first()->image,
+                        'cover_image' => $group->first()->{'main-image'},
+                        'content_images' => $group->pluck('content-image'),
+                    ];
+                });
+            },
+        ],
+        'en_brandings' => [
+            'extends' => '_layouts.case',
+            'language' => 'en',
+            'sort' => '-title',
+            'path' => '{language}/brandings/{slug}',
+            'items' => function ($config) {
+                $json = json_decode(file_get_contents(__DIR__ . '/collections/data/gtmc.json'));
+                $items = $json->zhtw->cases->brandings->items;
+
+                return collect($items)
+                ->groupBy('title')
+                ->map(function ($group) {
+                    return [
+                        'slug' => Str::slug($group->first()->title, '-', 'zh'),
+                        'language' => 'en',
+                        'title' => $group->first()->title,
+                        'content' => '',
+                        'thumbnail' => $group->first()->image,
+                        'cover_image' => $group->first()->{'main-image'},
+                        'content_images' => $group->pluck('content-image'),
+                    ];
+                });
+            },
+        ],
     ],
 
     // helpers
+    'getLocaleUrl' => function ($page, $locale) {
+        $from = '/' . $page->language;
+        $to = '/' . $locale;
+        return str_replace($from, $to ,$page->getUrl());
+    },
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
