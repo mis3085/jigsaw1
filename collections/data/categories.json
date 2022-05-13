@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "IPC for DVT Faker90",
+        "sub_title": "Respiratory Therapy Faker99",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/dvt-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleepwell-banner_5202.jpg"
+    },
+    {
+        "id": 2,
+        "title": "IPC for DVT Faker28",
+        "sub_title": "Respiratory Therapy Faker20",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/dvt-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleepwell-banner_5202.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Sleep Apnea Faker62",
+        "sub_title": "Pressure Area Care Faker48",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleepwell-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleepwell-banner_5202.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Sleep Apnea Faker45",
+        "sub_title": "Digital Health Faker43",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/dvt-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleepwell-banner_5202.jpg"
+    },
+    {
+        "id": 5,
+        "title": "SleepWell Faker15",
+        "sub_title": "Digital Health Faker68",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleep-apnea-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleep-apnea-banner_2478.jpg"
+    },
+    {
+        "id": 6,
+        "title": "IPC for DVT Faker34",
+        "sub_title": "Compression Therapy Faker91",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/dvt-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/support-surfaces_banner_9744.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Support Surfaces Faker21",
+        "sub_title": "Compression Therapy Faker11",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleep-apnea-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/dvt_banner_3861.jpg"
+    },
+    {
+        "id": 8,
+        "title": "IPC for DVT Faker21",
+        "sub_title": "Respiratory Therapy Faker24",
+        "image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/sleepwell-banner.jpg",
+        "feature_image": "https:\/\/www.wellell.com\/storage\/media\/global\/banner\/products\/dvt_banner_3861.jpg"
+    }
+]

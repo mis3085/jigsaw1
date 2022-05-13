@@ -15,25 +15,27 @@ return [
 
     // collections
     'collections' => [
-        'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
-            'sort' => '-date',
-            'path' => 'blog/{filename}',
-        ],
-        'categories' => [
-            'path' => '/blog/categories/{filename}',
-            'posts' => function ($page, $allPosts) {
-                return $allPosts->filter(function ($post) use ($page) {
-                    return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
-                });
-            },
-        ],
+        // 'posts' => [
+        //     'author' => 'Author Name', // Default author, if not provided in a post
+        //     'sort' => '-date',
+        //     'path' => 'blog/{filename}',
+        // ],
+        // 'categories' => [
+        //     'path' => '/blog/categories/{filename}',
+        //     'posts' => function ($page, $allPosts) {
+        //         return $allPosts->filter(function ($post) use ($page) {
+        //             return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
+        //         });
+        //     },
+        // ],
+        App\Collections\WeCategory::getName('zhtw') => App\Collections\WeCategory::collect('zhtw'),
+        App\Collections\WeProduct::getName('zhtw') => App\Collections\WeProduct::collect('zhtw'),
         App\Collections\Category::getName('en') => App\Collections\Category::collect('en', 20),
         App\Collections\Category::getName('zhtw') => App\Collections\Category::collect('zhtw', 20),
-        App\Collections\Award::getName('en') => App\Collections\Award::collect('en', 100),
-        App\Collections\Award::getName('zhtw') => App\Collections\Award::collect('zhtw', 100),
-        App\Collections\Company::getName('en') => App\Collections\Company::collect('en', 100),
-        App\Collections\Company::getName('zhtw') => App\Collections\Company::collect('zhtw', 100),
+        App\Collections\Award::getName('en') => App\Collections\Award::collect('en', 20),
+        App\Collections\Award::getName('zhtw') => App\Collections\Award::collect('zhtw', 20),
+        App\Collections\Company::getName('en') => App\Collections\Company::collect('en', 20),
+        App\Collections\Company::getName('zhtw') => App\Collections\Company::collect('zhtw', 20),
 
         'zhtw_brandings' => [
             'extends' => '_layouts.case',
@@ -62,7 +64,7 @@ return [
         'en_brandings' => [
             'extends' => '_layouts.case',
             'language' => 'en',
-            'sort' => '-title',
+            'sort' => 'title',
             'path' => '{language}/brandings/{slug}',
             'items' => function ($config) {
                 $json = json_decode(file_get_contents(__DIR__ . '/collections/data/gtmc.json'));
