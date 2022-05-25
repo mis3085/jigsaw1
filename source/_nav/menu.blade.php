@@ -23,14 +23,11 @@ $locale = $page->language ?: 'zhtw';
         Brandings
     </a>
 
-    <a title="Wexxxx" href="/{{ $locale }}/we_categories"
-        class="ml-6  hover:text-blue-600 {{ $page->isActive('/' . $locale . '/we_categories') ? 'active text-blue-600' : 'text-gray-700' }}">
-        Wexxxx
-    </a>
+    @include('_nav.mega_we_categories')
 
-    <div class="ml-6 w-48 relative" x-data="{open:false}">
+    <div class="ml-6 w-48 relative" x-data="{open:false}" x-on:click.away="open = false">
       <button x-on:click.prevent="open = ! open">{{ __('Language', $page->language) }}</button>
-      <div class="absolute left-0 z-10 w-fit flex flex-col bg-white -ml-3 sm:shadow-md" x-show="open">
+      <div class="absolute left-0 z-10 w-fit flex flex-col bg-white -ml-3 sm:shadow-md" x-show="open" x-cloak>
         @foreach ($page->siteLanguages as $slug => $text)
           @if ($page->language == $slug)
             <span class="block w-full px-3 py-1 text-gray-400">{{ $text }} &hearts; </span>

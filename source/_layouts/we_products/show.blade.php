@@ -10,7 +10,7 @@
   <h1 class="text-2xl font-extrabold">{{ $page->title }}</h1>
 
   @if (count($page->images))
-    <x-swiper.index class="mb-10" x-cloak x-data="{swiper: null}"
+    <x-swiper.index class="mb-10" x-data="{swiper: null}"
       x-init="$nextTick(() => {
         swiper = new Swiper($refs.container, {
           loop: true,
@@ -42,6 +42,40 @@
     </div>
 
     <div class="py-3" x-show="activeTab == 'overview'" x-transition>
+
+      <div x-data="">
+        <x-button_groups.responsive.inline>
+          <x-button_groups.responsive.item classType='first'
+            x-bind:class="{'sm:rounded-r-lg': !$store.inquiryCart.items.length}"
+            x-on:click="
+              $store.inquiryCart.add({
+                id: '{{ $page->id }}',
+                title: '{{ $page->title }}',
+                url: '{{ $page->getUrl() }}',
+                image: '{{$page->image}}'
+              })
+            ">
+            <span x-text="$store.inquiryCart.items.find(v => v.id == '{{ $page->id }}') ? 'Added!' : 'Add to inquiry cart'"></span>
+          </x-button_groups.responsive.item>
+
+          <a href="/form" class="py-1 px-2 w-full sm:w-48 text-center text-white text-sm rounded-b-lg sm:rounded-l-none sm:rounded-r-lg bg-green-500 hover:bg-green-700 hover:text-white" x-show="$store.inquiryCart.items.length" x-transition>Inquire Now</a>
+        </x-button_groups.responsive.inline>
+
+        <table class="w-full sm:w-96">
+          <template x-for="item in $store.inquiryCart.items">
+            <tr x-transition>
+              <td class="px-3">
+                <a x-bind:href="item.url"><span x-text="item.title"></span></a>
+              </td>
+              <td class="px-3">
+                <button class="px-4 py-1 rounded-lg text-red-400 hover:bg-red-100 " x-on:click="$store.inquiryCart.items = $store.inquiryCart.items.filter(v => v.id != item.id)">
+                  <svg class="h-4 w-4 "  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"><polyline points="3 6 5 6 21 6" /><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /><line x1="10" y1="11" x2="10" y2="17" />  <line x1="14" y1="11" x2="14" y2="17" /></svg>
+                </button>
+              </td>
+            </tr>
+          </template>
+        </table>
+      </div>
       <p class="px-3">{!! nl2br($page->description) !!}</p>
       @if (count($page->overviews))
         <x-bricks.blog-1 :items="$page->overviews"/>
@@ -81,18 +115,18 @@
   @if (count($page->introductions))
     <div class="mb-10">
       <h2 class="text-center"><span class="inline-block border-t-4 border-green-500 pt-4">Introductions</span></h2>
-      @foreach($page->introductions as $introduction)
+      @foreach ($page->introductions as $introduction)
         @if ($loop->odd)
-          <x-bricks.hero-7 :contents="$introduction" class="mb-10 "/>
+          <x-bricks.hero-10 :contents="$introduction"/>
         @else
-          <x-bricks.hero-8 :contents="$introduction" class="mb-10 "/>
+          <x-bricks.hero-9 :contents="$introduction"/>
         @endif
       @endforeach
     </div>
   @endif
 
   @if (count($page->faq))
-    <div class="container bg-gray-200 py-20 px-4 sm:px-20 rounded-lg mb-10">
+    <div class="bg-gray-200 py-20 px-4 sm:px-20 rounded-lg mb-10">
       <h2 class="text-center font-extrabold text-2xl"><span class="inline-block border-t-4 border-green-500 pt-4">FAQ</span></h2>
       @foreach($page->faq as $faq)
         <div class="border-2 rounded-md shadow-lg bg-white mb-6" x-data="{openAnswer: false}"
@@ -111,4 +145,25 @@
   <div class="mb-10">
     <x-project.we_products.similar :collection="${$page->language . '_we_products'}" :categoryId="$page->category_id"/>
   </div>
+
+
+  @push('scripts')
+    <script>
+      document.addEventListener('alpine:initializing', () => {
+          Alpine.store('inquiryCart', {
+              items: Alpine.$persist([]).as('inquiryCartItems'),
+              add(item) {
+                this.items.find(v => v.id == item.id)
+                  ? null
+                  : this.items.push({
+                    id: item.id,
+                    title: item.title,
+                    url: item.url,
+                    image: item.image
+                  });
+              },
+          })
+      })
+    </script>
+  @endpush
 @endsection

@@ -3,9 +3,8 @@
   'link' => null, //string
   'item' => null, //object
 ])
-<li {{ $attributes }}>
-  <div class="flex items-center">
-    <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-    <a href="{{ $link ?: $item->getUrl() }}" class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">{{ $title ?: $item->title }}</a>
-  </div>
+<li {{ $attributes->merge(['class' => 'flex items-center']) }}>
+  <svg class="sm:hidden h-4 w-4 text-gray-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="15 6 9 12 15 18" /></svg>
+  <a href="{{ $link ?: $item->getUrl() }}" class="inline-block text-xs font-medium truncate text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">{{ $title ?: $item->title }}</a>
+  <svg class="h-4 w-4 text-gray-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg>
 </li>

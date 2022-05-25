@@ -1,6 +1,6 @@
 @props([
   'classType' => null,
-  'shared' => 'w-full truncate py-1 px-2 text-sm font-medium text-gray-900 bg-white border-gray-200 hover:text-blue-700 focus:z-10 focus:ring-0 focus:text-blue-700',
+  'shared' => 'w-full truncate py-1 px-2 text-sm font-medium bg-white border-gray-200 hover:bg-blue-500 hover:text-white focus:ring-0',
 
   'first' =>  'rounded-t-lg border',
   'item' => 'border-r border-l border-b ',

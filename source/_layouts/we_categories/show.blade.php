@@ -11,10 +11,9 @@
   <p><img class="w-full h-64 sm:h-96 object-cover object-center" src="https://images.weserv.nl/?url={{ $page->feature_image }}&w=720"/></p>
   <hr>
 
-  <div x-data="we_product_filters"
->
+  <div x-data="we_product_filters">
     <div class="grid grid-cols-12 gap-4">
-      <div class="col-span-full sm:col-span-3">
+      <div class="col-span-full sm:col-span-3 ">
         @php
           $collection = ${$page->product_collection}->where('category_id', $page->id);
 
@@ -26,20 +25,24 @@
           }, []);
         @endphp
 
-        <div>
+        <div class="sticky top-4">
           @foreach ($filters as $key => $values)
             <x-button_groups.vertical.flex>
-              <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="filters.{{ $key }} = null;reset()" x-bind:class="{'text-blue-400' : !filters.{{ $key }} }" classType="first">
+              <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="filters.{{ $key }} = null;reset()" x-bind:class="{'bg-blue-400 text-white' : !filters.{{ $key }} }" classType="first">
                 {{ \Illuminate\Support\Str::headline($key) }}: All
               </x-button_groups.vertical.item>
 
               @foreach ($values as $valueKey => $value)
-                <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="filters.{{ $key }} = '{{ $valueKey }}';reset()" x-bind:class="{'text-blue-400' : filters.{{ $key }} == '{{ $valueKey }}' }" :classType="$loop->last ? 'last' : 'item'">
+                <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="filters.{{ $key }} = '{{ $valueKey }}';reset()" x-bind:class="{'bg-blue-400 text-white' : filters.{{ $key }} == '{{ $valueKey }}' }" :classType="$loop->last ? 'last' : 'item'">
                   {{ $valueKey }}
                 </x-button_groups.vertical.item>
               @endforeach
             </x-button_groups.vertical.flex>
           @endforeach
+
+          <button x-on:click="resetFilters" class="w-full p-1 text-red-300 border border-red-300 rounded-lg text-sm hover:bg-red-400 hover:text-white">
+            Reset
+          </button>
         </div>
       </div>
 
@@ -72,12 +75,12 @@
                 <div class="text-lg mt-1 text-center truncate" x-text="item.title"></div>
               </a>
 
-              <template x-for="fv in Object.entries(item.features)">
+              {{-- <template x-for="fv in Object.entries(item.features)">
                 <div>
                   <span x-text="fv[0].replace('_', ' ') + ':'"></span>
                   <span class="pl-2" x-text="fv[1]"></span>
                 </div>
-              </template>
+              </template> --}}
 
             </div>
           </template>
@@ -129,6 +132,13 @@ document.addEventListener('alpine:init', () => {
     },
     resetScroll: function() {
         document.getElementById('grid-content').scrollIntoView({behavior: 'smooth'});
+    },
+    resetFilters: function() {
+      this.filters.clinical_setting = null;
+      this.filters.function_type = null;
+      this.filters.device_type = null;
+      this.filters.mask_feature = null;
+      this.filters.mask_type = null;
     },
     get queryFilter() {
         let results = this.items.filter(

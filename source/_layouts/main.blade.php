@@ -39,10 +39,11 @@
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script> --}}
+        <style>[x-cloak] { display: none !important; }</style>
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
+        <header class="flex items-center shadow bg-white border-b h-24 py-4 z-50" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-4">
                 <div class="flex items-center">
                     <a href="/{{ $page->language }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
@@ -64,7 +65,7 @@
 
         @include('_nav.menu-responsive')
 
-        <main role="main" class="flex-auto w-full container max-w-8xl mx-auto py-6 px-6">
+        <main role="main" class="flex-auto w-full container max-w-8xl mx-auto py-4 px-4">
             @yield('body')
         </main>
 
@@ -88,7 +89,10 @@
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
+
+        <script defer src="https://unpkg.com/@alpinejs/persist@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @stack('scripts')
-        <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
+
     </body>
 </html>
