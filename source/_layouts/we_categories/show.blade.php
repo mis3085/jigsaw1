@@ -25,6 +25,28 @@
           }, []);
         @endphp
 
+        <div class="mb-20">
+          @foreach ($filters as $key => $values)
+            <div class="relative text-center mb-2 text-sm" x-data="{open:false, active: null}" x-modelable="active" x-model="filters.{{ $key }}" x-on:click.away="open = false">
+              <div class="py-1 bg-white rounded-lg border" x-on:click="open = !open">
+                {{ \Illuminate\Support\Str::headline($key) }}:
+                <span x-text="active"></span>
+                <span x-show="!active">{{ __('All', $page->language) }}</span>
+              </div>
+
+              <div x-show="open" x-transition class="absolute z-10 w-full flex flex-col items-center divide-y">
+                <div class="w-5/6 bg-white py-1 px-2 border-l border-r  hover:bg-gray-100" x-on:click="active = null; open = false;">{{ __('All', $page->language) }}</div>
+                @foreach ($values as $valueKey => $value)
+                  <div @class(['w-5/6 bg-white py-1 px-2 border-l border-r  hover:bg-gray-100', 'shadow-md rounded-b-lg' => $loop->last]) x-on:click="active = '{{ $valueKey }}'; open = false;">{{ $valueKey }}</div>
+                @endforeach
+              </div>
+            </div>
+          @endforeach
+          <button x-on:click="resetFilters" class="w-full p-1 text-red-300 border border-red-300 rounded-lg text-sm hover:bg-red-400 hover:text-white">
+            Reset
+          </button>
+        </div>
+
         <div class="sticky top-4">
           @foreach ($filters as $key => $values)
             <x-button_groups.vertical.flex>
@@ -33,7 +55,7 @@
               </x-button_groups.vertical.item>
 
               @foreach ($values as $valueKey => $value)
-                <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="filters.{{ $key }} = '{{ $valueKey }}';reset()" x-bind:class="{'bg-blue-400 text-white' : filters.{{ $key }} == '{{ $valueKey }}' }" :classType="$loop->last ? 'last' : 'item'">
+                <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="applyFilter('{{ $key }}','{{ $valueKey }}')" x-bind:class="{'bg-blue-400 text-white' : filters.{{ $key }} == '{{ $valueKey }}' }" :classType="$loop->last ? 'last' : 'item'">
                   {{ $valueKey }}
                 </x-button_groups.vertical.item>
               @endforeach
@@ -139,6 +161,11 @@ document.addEventListener('alpine:init', () => {
       this.filters.device_type = null;
       this.filters.mask_feature = null;
       this.filters.mask_type = null;
+    },
+    applyFilter: function(key, value) {
+      this.filters[key] = value;
+      this.reset();
+      gtag("event", "search", {search_term: value});
     },
     get queryFilter() {
         let results = this.items.filter(

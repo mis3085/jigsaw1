@@ -25,18 +25,20 @@ language: zhtw
     ];
   @endphp
   @foreach ($solutions as $solution)
-    @if ($loop->odd)
-      <x-bricks.hero-10 :contents="$solution"/>
-    @else
-      <x-bricks.hero-9 :contents="$solution"/>
-    @endif
+    <x-bricks.preview>
+      @if ($loop->odd)
+        <x-bricks.hero-10 :contents="$solution"/>
+      @else
+        <x-bricks.hero-9 :contents="$solution"/>
+      @endif
+    </x-bricks.preview>
   @endforeach
 
   {{-- <x-bricks.hero-10/>
 
   <x-bricks.hero-9/> --}}
 
-  <div class="mb-10" x-data="{
+  <div class="mb-10 select-none	" x-data="{
     active: 'id1',
     prev:'id0',
     next:'id2',
@@ -54,14 +56,14 @@ language: zhtw
     <template x-if="true">
       <div class="flex flex-wrap space-y-2 sm:flex-nowrap sm:space-x-2 sm:space-y-0">
         @foreach(range(1,10) as $id)
-          <div class="transform transition-all rounded-xl shadow-md"
+          <div class="transform transition-all rounded-xl shadow-md "
             x-on:click="active = 'id{{ $id }}'; prev = 'id{{ $id - 1 }}'; next = 'id{{ $id + 1 }}';"
             x-bind:class="{
               'h-64 w-full sm:w-64 sm:flex-grow': isActive('id{{ $id }}'),
-              'h-8 w-full sm:h-64 sm:w-8 sm:scale-75 hover:scale-125': isClosest('id{{ $id }}'),
-              'h-8 w-full sm:h-64 sm:w-8 sm:scale-50 hover:scale-125': isSibling('id{{ $id }}'),
+              'h-8 w-full sm:h-64 sm:w-8 sm:scale-75 hover:scale-125 cursor-pointer': isClosest('id{{ $id }}'),
+              'h-8 w-full sm:h-64 sm:w-8 sm:scale-50 hover:scale-125 cursor-pointer': isSibling('id{{ $id }}'),
             }">
-            <img class="w-full h-full rounded-xl object-cover object-center" src="https://picsum.photos/id/{{ $id }}/640/640" />
+            <img class="pointer-events-none w-full h-full rounded-xl object-cover object-center" src="https://picsum.photos/id/{{ $id }}/640/640" />
           </div>
         @endforeach
       </div>

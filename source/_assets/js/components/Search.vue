@@ -78,6 +78,9 @@ export default {
     },
     computed: {
         results() {
+            if (this.query) {
+                gtag("event", "search", {search_term: this.query});
+            }
             return this.query ? this.fuse.search(this.query) : [];
         },
     },

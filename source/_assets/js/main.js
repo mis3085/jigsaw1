@@ -3,6 +3,7 @@ import Vue from 'vue';
 import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/core';
 
+window.hljs=hljs;
 // Syntax highlighting
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
 hljs.registerLanguage('css', require('highlight.js/lib/languages/css'));

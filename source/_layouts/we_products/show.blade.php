@@ -36,13 +36,13 @@
   @endif
 
   <div class="mb-10" x-data="{activeTab: 'overview'}">
-    <div class="flex border-b-2 border-gray-400 mb-4">
-      <button class="px-6 py-3 -mb-2 font-bold" x-on:click="activeTab = 'overview'" x-bind:class="{'border-b-8 border-green-500': activeTab == 'overview'}">Overview</button>
-      <button class="ml-4 px-6 py-3 -mb-2 font-bold" x-on:click="activeTab = 'spec'" x-bind:class="{'border-b-8 border-green-500': activeTab == 'spec'}">Specification</button>
+    <div  x-ref="anchor" class="h-px"></div>
+    <div class="flex border-b-2 border-gray-400 mb-4 sticky top-0 bg-white">
+      <button class="px-6 py-3 -mb-2 font-bold text-xs sm:text-sm" x-on:click="$refs.anchor.scrollIntoView({behavior: 'smooth'});activeTab = 'overview'; " x-bind:class="{'border-b-8 border-green-500': activeTab == 'overview'}">Overview</button>
+      <button class="ml-4 px-6 py-3 -mb-2 font-bold text-xs sm:text-sm" x-on:click="$refs.anchor.scrollIntoView({behavior: 'smooth'});activeTab = 'spec'; " x-bind:class="{'border-b-8 border-green-500': activeTab == 'spec'}">Specification</button>
     </div>
 
     <div class="py-3" x-show="activeTab == 'overview'" x-transition>
-
       <div x-data="">
         <x-button_groups.responsive.inline>
           <x-button_groups.responsive.item classType='first'

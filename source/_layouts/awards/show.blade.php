@@ -7,6 +7,11 @@
       <template x-if="document.referrer.match(/categories/)">
         <x-breadcrumb.link :item="${$page->category_collection}->firstWhere('id', $page->category_id)"/>
       </template>
+      <template x-if="document.referrer.match(/companies/)">
+        @if (${$page->parent_collection}->firstWhere('id', $page->company_id))
+        <x-breadcrumb.link :item="${$page->parent_collection}->firstWhere('id', $page->company_id)"/>
+        @endif
+      </template>
       <x-breadcrumb.link  x-show="!document.referrer.match(/categories|companies/)" link="javascript:history.back()" :title="__('Awards', $page->language)"/>
     </x-breadcrumb.index>
   </div>
