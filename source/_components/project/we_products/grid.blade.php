@@ -4,7 +4,7 @@
     title="Read more - {{ $item->title }}"
     class="text-gray-900 font-extrabold">
     @if ($item->images)
-        <img src="https://images.weserv.nl/?url={{ $item->image }}&h=300" class="w-full h-64 object-cover"
+        <img src="https://images.weserv.nl/?output=webp&?url={{ $item->image }}&h=300" class="w-full h-64 object-cover"
             alt="{{ $item->title }}" loading="lazy"/>
     @else
       <svg class="w-full h-full p-24 bg-white absolute inset-0 z-10" x-show="! loaded" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" vesion="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 232.322 232.322" style="enable-background:new 0 0 232.322 232.322;" xml:space="preserve">

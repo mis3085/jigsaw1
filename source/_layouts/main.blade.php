@@ -19,8 +19,8 @@
         <link rel="preload" as="font">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://unpkg.com" />
-        <link rel="preconnect" href="https://images.weserv.nl" />
-        <link rel="dns-prefetch" href="https://images.weserv.nl" />
+        <link rel="preconnect" href="https://images.weserv.nl/?output=webp&" />
+        <link rel="dns-prefetch" href="https://images.weserv.nl/?output=webp&" />
 
         @if ($page->production)
             <!-- Insert analytics code here -->

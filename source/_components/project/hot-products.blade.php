@@ -31,7 +31,7 @@
               </h2>
               <p class="mb-4 leading-relaxed line-clamp-4">{{ \Illuminate\Support\Str::limit($product->description, 100) }}</p>
             </div>
-            <img class="h-48 w-full object-scale-down object-center" src="https://images.weserv.nl/?w=480&url={{ $product->image }}" alt="{{ $product->title }}"/>
+            <img class="h-48 w-full object-scale-down object-center" src="https://images.weserv.nl/?output=webp&?w=480&url={{ $product->image }}" alt="{{ $product->title }}"/>
           </div>
       </x-swiper.slide>
     @endforeach

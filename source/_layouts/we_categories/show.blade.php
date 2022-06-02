@@ -8,7 +8,7 @@
   </div>
 
   <h1 class="text-2xl font-extrabold mb-6">{{ $page->title }}</h1>
-  <p class="mb-10"><img class="w-full h-64 sm:h-96 object-cover object-center" src="https://images.weserv.nl/?url={{ $page->feature_image }}&w=720"/></p>
+  <p class="mb-10"><img class="w-full h-64 sm:h-96 object-cover object-center" src="https://images.weserv.nl/?output=webp&?url={{ $page->feature_image }}&w=720"/></p>
 
   <div x-data="we_product_filters">
     <div class="grid grid-cols-12 gap-4">
@@ -92,7 +92,7 @@
                 x-bind:title="item.title">
 
                 <img class="w-full h-64 object-cover" loading="lazy"
-                  x-bind:src="'https://images.weserv.nl/?h=300&url=' + item.image"
+                  x-bind:src="'https://images.weserv.nl/?output=webp&?h=300&url=' + item.image"
                   x-bind:alt="item.title" />
                 <div class="text-lg mt-1 text-center truncate" x-text="item.title"></div>
               </a>

@@ -26,7 +26,7 @@
           <x-swiper.slide class="">
             <div class="flex flex-col overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-64 sm:h-96 md:h-[32rem] w-full object-cover" src="https://images.weserv.nl/?url={{ $image }}&w=720" alt="{{ $page->title }}" @if (! $loop->first) loading="lazy" @endif>
+                <img class="h-64 sm:h-96 md:h-[32rem] w-full object-cover" src="https://images.weserv.nl/?output=webp&?url={{ $image }}&w=720" alt="{{ $page->title }}" @if (! $loop->first) loading="lazy" @endif>
               </div>
             </div>
           </x-swiper.slide>

@@ -12,7 +12,7 @@
       <div class="flex flex-wrap max-w-8xl mx-auto">
         @foreach ($zhtw_we_categories as $category)
           <div class="w-1/3 flex items-center p-2 space-x-2">
-            <img src="https://images.weserv.nl/?h=64&url={{ $category->image }}" class="rounded-lg w-16 h-16 object-cover"/>
+            <img src="https://images.weserv.nl/?output=webp&?h=64&url={{ $category->image }}" class="rounded-lg w-16 h-16 object-cover"/>
             <div>
               <a href="{{ $category->getUrl() }}" class="block">
                 <span class="text-gray-400 text-sm">{{ $category->sub_title }}</span><br/>

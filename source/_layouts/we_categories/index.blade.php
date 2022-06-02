@@ -9,7 +9,7 @@
         href="{{ $post->getUrl() }}"
         title="{{ $post->title }}">
         <img class="w-full h-64 object-cover bg-white rounded-full p-3 mb-2"
-          src="https://images.weserv.nl/?h=300&url={{ $post->image }}" alt="{{ $post->title }}"
+          src="https://images.weserv.nl/?output=webp&?h=300&url={{ $post->image }}" alt="{{ $post->title }}"
           @if ($loop->index > 6) loading="lazy" @endif />
 
         <h2 class="text-base text-center truncate">{{ $post->title }}</h2>

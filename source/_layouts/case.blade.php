@@ -26,7 +26,7 @@
 
         @if ($page->content_images)
             {{-- @foreach($page->content_images as $image)
-                <img class="mb-6 w-full h-96" src="https://images.weserv.nl/?w=720&url={{ $image }}"
+                <img class="mb-6 w-full h-96" src="https://images.weserv.nl/?output=webp&?w=720&url={{ $image }}"
                     alt="{{ $page->title }}" loading="lazy" onload="this.style.height='auto'"/>
             @endforeach --}}
 
@@ -47,7 +47,7 @@
                     <div class="flex flex-col overflow-hidden">
                       <div class="flex-shrink-0">
                         {{-- change h-* to adjust height, ex: h-96 or h-[30rem] --}}
-                        <img class="h-64 sm:h-96 md:h-[32rem] w-full object-cover" src="https://images.weserv.nl/?w=720&url={{ $image }}" alt="{{ $page->title }}" loading="lazy">
+                        <img class="h-64 sm:h-96 md:h-[32rem] w-full object-cover" src="https://images.weserv.nl/?output=webp&?w=720&url={{ $image }}" alt="{{ $page->title }}" loading="lazy">
                       </div>
                     </div>
                   </x-swiper.slide>

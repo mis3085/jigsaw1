@@ -74,7 +74,7 @@ language: zhtw
     @foreach ($zhtw_ex_categories as $category)
       <div class="flex w-full h-48 sm:h-64 md:h-96 mb-6 relative items-center justify-center">
         @if ($category->background)
-          <img src="https://images.weserv.nl/?w=720&url=https://world.taiwanexcellence.org/uploads/{{ $category->background }}" alt="{{ $category->title }} cover image" class="absolute inset-0 w-full h-full object-cover object-center">
+          <img src="https://images.weserv.nl/?output=webp&?w=720&url=https://world.taiwanexcellence.org/uploads/{{ $category->background }}" alt="{{ $category->title }} cover image" class="absolute inset-0 w-full h-full object-cover object-center">
         @endif
 
         <a href="{{ $category->getUrl() }}" title="Read - {{ $category->title }}"

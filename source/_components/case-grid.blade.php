@@ -1,5 +1,5 @@
 <div class="sm:w-1/2 md:w-1/3 p-3 mb-3">
-    <img src="https://images.weserv.nl/?h=300&url={{ $post->thumbnail }}" class="w-full h-64 object-cover" alt="{{ $post->title }}"/>
+    <img src="https://images.weserv.nl/?output=webp&?h=300&url={{ $post->thumbnail }}" class="w-full h-64 object-cover" alt="{{ $post->title }}"/>
     <p class="text-gray-700 font-medium my-2">
         {{ $post->id }}
     </p>

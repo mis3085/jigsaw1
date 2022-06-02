@@ -89,7 +89,7 @@
                     x-init="$watch('award', v => loaded = false)"
                     >
                         <img class="w-full h-64 object-cover" x-on:load="loaded = true" loading="lazy"
-                            x-bind:src="'https://images.weserv.nl/?h=300&url=https://world.taiwanexcellence.org/uploads/' + award.image"
+                            x-bind:src="'https://images.weserv.nl/?output=webp&?h=300&url=https://world.taiwanexcellence.org/uploads/' + award.image"
                             x-bind:alt="award.title" />
 
                         <svg class="w-full h-full p-24 bg-white absolute inset-0 z-10" x-show="! loaded" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" vesion="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 232.322 232.322" style="enable-background:new 0 0 232.322 232.322;" xml:space="preserve">
