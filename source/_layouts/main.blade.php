@@ -21,6 +21,7 @@
         <link rel="preconnect" href="https://unpkg.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="preconnect" href="https://picsum.photos" />
         <link rel="preconnect" href="https://images.weserv.nl" />
         <link rel="dns-prefetch" href="https://images.weserv.nl" />
@@ -28,7 +29,7 @@
         @if ($page->production)
             <!-- Insert analytics code here -->
         @else
-          <script src="https://cdn.tailwindcss.com?plugins=forms,typography,line-clamp,aspect-ratio"></script>
+          {{-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,line-clamp,aspect-ratio"></script> --}}
         @endif
 
         <!-- Global site tag (gtag.js) - Google Analytics -->

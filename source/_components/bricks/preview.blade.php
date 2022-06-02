@@ -17,26 +17,27 @@
 @once
   @push('scripts')
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/a11y-light.min.css" integrity="sha512-WDk6RzwygsN9KecRHAfm9HTN87LQjqdygDmkHSJxVkVI7ErCZ8ZWxP6T8RvBujY1n2/E4Ac+bn2ChXnp5rnnHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
 
   <script>
     document.addEventListener('alpine:init', () => {
       Alpine.data('previewMode', () => ({
         preview: true,
+        code: null,
         on() {
           this.preview = true;
         },
         off() {
           this.preview = false;
+          if (!this.code) {
+            this.code = hljs.highlight(this.$refs.source.innerHTML, {language:'html'}).value;
+          }
         },
         get isOn() {
           return this.preview ? 'bg-white' : 'bg-gray-200';
         },
         get isOff() {
           return this.preview ? 'bg-gray-200' : 'bg-white';
-        },
-        get code() {
-          return hljs.highlight(this.$refs.source.innerHTML, {language:'html'}).value;
         }
       }))
     })
