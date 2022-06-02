@@ -25,6 +25,7 @@
         <link rel="preconnect" href="https://picsum.photos" />
         <link rel="preconnect" href="https://images.weserv.nl" />
         <link rel="dns-prefetch" href="https://images.weserv.nl" />
+        <link rel="preload" type="image" href="https://images.weserv.nl/?output=webp&w=720&url=https://www.wellell.com/storage/media/global/banner">
 
         @if ($page->production)
             <!-- Insert analytics code here -->
