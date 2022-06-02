@@ -2,7 +2,7 @@
 
 @section('body')
     <h1 class="text-2xl font-extrabold">{{ $page->title }}</h1>
-    <p><img class="w-full h-64 sm:h-96" src="https://images.weserv.nl/?output=webp&?url=https://world.taiwanexcellence.org/uploads/{{ $page->background }}&w=720"/></p>
+    <p><img class="w-full h-64 sm:h-96" src="https://images.weserv.nl/?output=webp&url=https://world.taiwanexcellence.org/uploads/{{ $page->background }}&w=720"/></p>
     <hr>
 
     @php

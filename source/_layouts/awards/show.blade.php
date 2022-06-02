@@ -31,7 +31,7 @@
   <p>{{ $page->description }}</p>
 
   @forelse($page->images as $image)
-    <p><img src="https://images.weserv.nl/?output=webp&?url=https://world.taiwanexcellence.org/uploads/{{ $image }}&w=720" class="w-full" alt="{{ $page->title }}"/></p>
+    <p><img src="https://images.weserv.nl/?output=webp&url=https://world.taiwanexcellence.org/uploads/{{ $image }}&w=720" class="w-full" alt="{{ $page->title }}"/></p>
   @empty
   @endforelse
 @endsection

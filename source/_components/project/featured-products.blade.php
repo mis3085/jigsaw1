@@ -33,7 +33,7 @@
       @foreach($collection->where('featured', true)->take(4) as $product)
         <x-swiper.slide class="">
           <div class="flex flex-wrap w-full bg-gray-100 relative h-64">
-              <img class="h-full w-full object-cover object-center block opacity-25 absolute inset-0" src="https://images.weserv.nl/?output=webp&?w=480&url={{ $product->image }}" alt="{{ $product->title }}"/>
+              <img class="h-full w-full object-cover object-center block opacity-25 absolute inset-0" src="https://images.weserv.nl/?output=webp&w=480&url={{ $product->image }}" alt="{{ $product->title }}"/>
               <div class="text-left z-10 px-12 py-6 w-full">
                 <h2 class="title-font text-2xl mb-4 font-medium text-gray-900 truncate">
                   <a href="{{ $product->getUrl() }}">{{ $product->title }}</a>

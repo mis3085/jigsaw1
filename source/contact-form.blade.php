@@ -49,7 +49,7 @@ description: Get in touch with us
 <ul class="mb-3" x-data="">
   <template x-for="item in $store.inquiryCart.items">
     <li class="">
-      <img x-bind:src="'https://images.weserv.nl/?output=webp&?w=80&h=80&url=' + item.image" x-show="item.image" width="80" style="max-height:80px"/>
+      <img x-bind:src="'https://images.weserv.nl/?output=webp&w=80&h=80&url=' + item.image" x-show="item.image" width="80" style="max-height:80px"/>
       <span class="mr-4" x-text="item.id"></span>
       <span class="mr-4" x-text="item.title"></span>
       <span class="mr-4" x-text="item.url"></span>
