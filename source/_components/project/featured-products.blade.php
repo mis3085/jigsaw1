@@ -9,7 +9,7 @@
 @endforelse --}}
 
 <section class="mb-10">
-  <h2 class="text-center"><span class="inline-block border-t-4 border-green-500 pt-4">Featured Products</span></h2>
+  <h2 class="text-center"><span class="inline-block border-t-4 border-cyan-600 pt-4">Featured Products</span></h2>
   <x-swiper.index class="mb-10" x-data="{swiper: null}"
     x-init="$nextTick(() => {
       swiper = new Swiper($refs.container, {

@@ -13,7 +13,6 @@
     </li> --}}
 
     {{ $slot }}
-
     <x-breadcrumb.current>{{ $page->title }}</x-breadcrumb.current>
   </ol>
 </nav>

@@ -23,6 +23,11 @@ $locale = isset($page->language) ? $page->language : 'zhtw';
         Brandings
       </a></li>
 
+    <li class="pl-4"><a title="Wexxxx" href="/{{ $locale }}/we_categories"
+        class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/' . $locale . '/we_categories') ? 'active text-blue-600' : 'text-gray-700' }}">
+        Wexxxx
+      </a></li>
+
     <li class="pl-4">
       <div class="mb-2 text-sm">{{ __('Language', $locale) }}</div>
       @foreach ($page->siteLanguages as $slug => $text)

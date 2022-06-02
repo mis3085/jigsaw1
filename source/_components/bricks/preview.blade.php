@@ -8,13 +8,17 @@
       <span>Code</span></button>
   </div>
   <div x-show="!preview" x-cloak>
-    <pre><code class="highlight" x-html="code"></code></pre>
+    <pre class="p-4 my-6 rounded shadow overflow-x-auto bg-gray-200 max-h-96"><code x-html="code"></code></pre>
   </div>
   <div x-show="preview" x-ref="source">{{ $slot }}</div>
 </div>
 <hr class="my-4"/>
+
 @once
   @push('scripts')
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/a11y-light.min.css" integrity="sha512-WDk6RzwygsN9KecRHAfm9HTN87LQjqdygDmkHSJxVkVI7ErCZ8ZWxP6T8RvBujY1n2/E4Ac+bn2ChXnp5rnnHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
   <script>
     document.addEventListener('alpine:init', () => {
       Alpine.data('previewMode', () => ({

@@ -1,15 +1,14 @@
 @extends('_layouts.main')
 
 @section('body')
-  <div x-data="{}">
+  <div class="mb-6">
     <x-breadcrumb.index :page="$page">
       <x-breadcrumb.link  :link="'/' . $page->language . '/we_categories'" :title="__('We Categories', $page->language)"/>
     </x-breadcrumb.index>
   </div>
 
-  <h1 class="text-2xl font-extrabold">{{ $page->title }}</h1>
-  <p><img class="w-full h-64 sm:h-96 object-cover object-center" src="https://images.weserv.nl/?url={{ $page->feature_image }}&w=720"/></p>
-  <hr>
+  <h1 class="text-2xl font-extrabold mb-6">{{ $page->title }}</h1>
+  <p class="mb-10"><img class="w-full h-64 sm:h-96 object-cover object-center" src="https://images.weserv.nl/?url={{ $page->feature_image }}&w=720"/></p>
 
   <div x-data="we_product_filters">
     <div class="grid grid-cols-12 gap-4">
@@ -50,12 +49,14 @@
         <div class="sticky top-4">
           @foreach ($filters as $key => $values)
             <x-button_groups.vertical.flex>
-              <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="filters.{{ $key }} = null;reset()" x-bind:class="{'bg-blue-400 text-white' : !filters.{{ $key }} }" classType="first">
+              <x-button_groups.vertical.item
+                x-on:click.prevent="removeFilter('{{ $key }}')"
+                x-bind:class="{'bg-blue-400 text-white' : !filters. {{ $key }} }" classType="first">
                 {{ \Illuminate\Support\Str::headline($key) }}: All
               </x-button_groups.vertical.item>
 
               @foreach ($values as $valueKey => $value)
-                <x-button_groups.vertical.item x-model="filters.{{ $key }}" x-on:click.prevent="applyFilter('{{ $key }}','{{ $valueKey }}')" x-bind:class="{'bg-blue-400 text-white' : filters.{{ $key }} == '{{ $valueKey }}' }" :classType="$loop->last ? 'last' : 'item'">
+                <x-button_groups.vertical.item x-on:click.prevent="addFilter('{{ $key }}','{{ $valueKey }}')" x-bind:class="{'bg-blue-400 text-white' : filters.{{ $key }} == '{{ $valueKey }}' }" :classType="$loop->last ? 'last' : 'item'">
                   {{ $valueKey }}
                 </x-button_groups.vertical.item>
               @endforeach
@@ -83,26 +84,18 @@
             </div>
           @endif --}}
 
-        <div class="flex flex-wrap" id="grid-content">
+        <div class="flex flex-wrap" x-ref="grid">
           <template x-for="item in toPage">
             <div class="w-full sm:w-1/2 md:w-1/3 sm:p-3 mb-3">
               <a class="text-gray-900 font-extrabold w-full relative block"
                 x-bind:href="item.link"
-                x-bind:title="item.title"
-                x-init="$watch('item', v => loaded = false)">
+                x-bind:title="item.title">
 
                 <img class="w-full h-64 object-cover" loading="lazy"
                   x-bind:src="'https://images.weserv.nl/?h=300&url=' + item.image"
                   x-bind:alt="item.title" />
                 <div class="text-lg mt-1 text-center truncate" x-text="item.title"></div>
               </a>
-
-              {{-- <template x-for="fv in Object.entries(item.features)">
-                <div>
-                  <span x-text="fv[0].replace('_', ' ') + ':'"></span>
-                  <span class="pl-2" x-text="fv[1]"></span>
-                </div>
-              </template> --}}
 
             </div>
           </template>
@@ -128,32 +121,39 @@
 document.addEventListener('alpine:init', () => {
   Alpine.data('we_product_filters', () => ({
     init() {
-      axios('/index_we_products.json').then(response => {
-          this.items = response.data.filter(item => item.type == 'we_products');
-      });
+      this.fetchItems();
+      this.$watch('filters', (v, o) => console.log(o));
+    },
+    async fetchItems() {
+      try {
+        let res = await axios('/index_we_products.json');
+        this.items = res.data.filter(item => item.type == 'we_products');
+      } catch (e) {
+        console.error(e);
+      }
     },
     items: [],
     filters: {
-        language: '{{ $page->language }}',
-        category_id: '{{ $page->id }}',
-        clinical_setting: null,
-        function_type: null,
-        device_type: null,
-        mask_feature: null,
-        mask_type: null
+      language: '{{ $page->language }}',
+      category_id: '{{ $page->id }}',
+      clinical_setting: null,
+      function_type: null,
+      device_type: null,
+      mask_feature: null,
+      mask_type: null
     },
     pagination: {
-        perPage: 12,
-        current: parseInt((new URLSearchParams(window.location.search)).get('page')) || 1,
-        next: 1,
-        previous: 1,
-        totalPages: 0,
+      perPage: 12,
+      current: parseInt((new URLSearchParams(window.location.search)).get('page')) || 1,
+      next: 1,
+      previous: 1,
+      totalPages: 0
     },
-    reset: function() {
-        this.pagination.current = 1;
+    resetPagination: function() {
+      this.pagination.current = 1;
     },
     resetScroll: function() {
-        document.getElementById('grid-content').scrollIntoView({behavior: 'smooth'});
+      this.$refs.grid.scrollIntoView({behavior: 'smooth'});
     },
     resetFilters: function() {
       this.filters.clinical_setting = null;
@@ -162,31 +162,35 @@ document.addEventListener('alpine:init', () => {
       this.filters.mask_feature = null;
       this.filters.mask_type = null;
     },
-    applyFilter: function(key, value) {
+    addFilter: function(key, value) {
       this.filters[key] = value;
-      this.reset();
+      this.resetPagination();
       gtag("event", "search", {search_term: value});
     },
+    removeFilter: function(key) {
+      this.filters[key] = null;
+      this.resetPagination();
+    },
     get queryFilter() {
-        let results = this.items.filter(
-            item => (item.language == this.filters.language)
-                && (item.category_id == this.filters.category_id)
-                && (this.filters.clinical_setting ? item.features.clinical_setting == this.filters.clinical_setting : true)
-                && (this.filters.function_type ? item.features.function_type == this.filters.function_type : true)
-                && (this.filters.device_type ? item.features.device_type == this.filters.device_type : true)
-                && (this.filters.mask_feature ? item.features.mask_feature == this.filters.mask_feature : true)
-                && (this.filters.mask_type ? item.features.mask_type == this.filters.mask_type : true)
-        );
-        this.pagination.totalPages = Math.ceil(results.length / this.pagination.perPage);
-        return results;
+      let results = this.items.filter(
+        item => (item.language == this.filters.language)
+          && (item.category_id == this.filters.category_id)
+          && (this.filters.clinical_setting ? item.features.clinical_setting == this.filters.clinical_setting : true)
+          && (this.filters.function_type ? item.features.function_type == this.filters.function_type : true)
+          && (this.filters.device_type ? item.features.device_type == this.filters.device_type : true)
+          && (this.filters.mask_feature ? item.features.mask_feature == this.filters.mask_feature : true)
+          && (this.filters.mask_type ? item.features.mask_type == this.filters.mask_type : true)
+      );
+      this.pagination.totalPages = Math.ceil(results.length / this.pagination.perPage);
+      return results;
     },
     get toPage() {
-        let start = (this.pagination.current - 1) * this.pagination.perPage;
-        let end = this.pagination.current * this.pagination.perPage;
+      let start = (this.pagination.current - 1) * this.pagination.perPage;
+      let end = this.pagination.current * this.pagination.perPage;
 
-        this.pagination.previous = this.pagination.current > 1 ? this.pagination.current - 1 : 1;
-        this.pagination.next = this.pagination.current >= this.pagination.totalPages ? this.pagination.totalPages : this.pagination.current + 1;
-        return this.queryFilter.slice(start, end);
+      this.pagination.previous = this.pagination.current > 1 ? this.pagination.current - 1 : 1;
+      this.pagination.next = this.pagination.current >= this.pagination.totalPages ? this.pagination.totalPages : this.pagination.current + 1;
+      return this.queryFilter.slice(start, end);
     }
   }))
 })
