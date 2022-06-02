@@ -44,12 +44,14 @@
         isStart: true,
         isEnd: false,
         slide(forward = true) {
-          $refs.scroller.scrollBy(forward ? 100 : -100, 0);
-          setTimeout(() => {this.navigationVisibility()}, 400);
+          let distance = forward ? $refs.scroller.clientWidth/2 : -$refs.scroller.clientWidth/2;
+          let gap = $refs.scroller.scrollLeft % distance;
+          $refs.scroller.scrollBy(distance, 0);
+          this.navigationVisibility($refs.scroller.scrollLeft + distance, gap);
         },
-        navigationVisibility() {
-          this.isEnd = ($refs.scroller.scrollLeft == $refs.scroller.scrollWidth - $refs.scroller.clientWidth);
-          this.isStart = ($refs.scroller.scrollLeft == 0);
+        navigationVisibility(position, gap) {
+          this.isEnd = (position >= $refs.scroller.scrollWidth - $refs.scroller.clientWidth - gap);
+          this.isStart = position <= gap;
         }
       }">
         <div class="mb-3 text-center text-3xl font-bold">Campaign Title</div>
@@ -101,12 +103,14 @@
         isStart: true,
         isEnd: false,
         slide(forward = true) {
-          $refs.scroller.scrollBy(forward ? 100 : -100, 0);
-          setTimeout(() => {this.navigationVisibility()}, 400);
+          let distance = forward ? $refs.scroller.clientWidth : -$refs.scroller.clientWidth;
+          let gap = $refs.scroller.scrollLeft % distance;
+          $refs.scroller.scrollBy(distance, 0);
+          this.navigationVisibility($refs.scroller.scrollLeft + distance, gap);
         },
-        navigationVisibility() {
-          this.isEnd = ($refs.scroller.scrollLeft == $refs.scroller.scrollWidth - $refs.scroller.clientWidth);
-          this.isStart = ($refs.scroller.scrollLeft == 0);
+        navigationVisibility(position, gap) {
+          this.isEnd = (position >= $refs.scroller.scrollWidth - $refs.scroller.clientWidth - gap);
+          this.isStart = position <= gap;
         }
       }">
         <div class="mb-3 text-center text-3xl font-bold">Campaign Title</div>
@@ -156,12 +160,14 @@
         isStart: true,
         isEnd: false,
         slide(forward = true) {
-          $refs.scroller.scrollBy(forward ? 100 : -100, 0);
-          setTimeout(() => {this.navigationVisibility()}, 400);
+          let distance = forward ? $refs.scroller.clientWidth : -$refs.scroller.clientWidth;
+          let gap = $refs.scroller.scrollLeft % distance;
+          $refs.scroller.scrollBy(distance, 0);
+          this.navigationVisibility($refs.scroller.scrollLeft + distance, gap);
         },
-        navigationVisibility() {
-          this.isEnd = ($refs.scroller.scrollLeft == $refs.scroller.scrollWidth - $refs.scroller.clientWidth);
-          this.isStart = ($refs.scroller.scrollLeft == 0);
+        navigationVisibility(position, gap) {
+          this.isEnd = (position >= $refs.scroller.scrollWidth - $refs.scroller.clientWidth - gap);
+          this.isStart = position <= gap;
         }
       }">
         <div class="mb-10 text-center text-3xl font-extrabold">Title</div>
