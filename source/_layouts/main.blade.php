@@ -19,6 +19,9 @@
         <link rel="preload" as="font">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://unpkg.com" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://picsum.photos" />
         <link rel="preconnect" href="https://images.weserv.nl" />
         <link rel="dns-prefetch" href="https://images.weserv.nl" />
 
