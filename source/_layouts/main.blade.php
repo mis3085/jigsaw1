@@ -24,6 +24,8 @@
 
         @if ($page->production)
             <!-- Insert analytics code here -->
+        @else
+          <script src="https://cdn.tailwindcss.com?plugins=forms,typography,line-clamp,aspect-ratio"></script>
         @endif
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
