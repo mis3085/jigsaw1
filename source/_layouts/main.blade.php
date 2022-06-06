@@ -87,11 +87,13 @@
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
             </ul>
-            <div>{{ number_format(memory_get_usage()) }} / {{ number_format(memory_get_peak_usage()) }}</div>
-            <div>zhtw_ex_companies: {{  count($zhtw_ex_companies) }}</div>
-            <div>zhtw_ex_awards: {{  count($zhtw_ex_awards) }}</div>
-            <div>en_ex_awards: {{  count($en_ex_awards) }}</div>
-            <div>zhtw_ex_categories: {{  count($zhtw_ex_categories) }}</div>
+            @if (!$page->production)
+              <div>{{ number_format(memory_get_usage()) }} / {{ number_format(memory_get_peak_usage()) }}</div>
+              <div>zhtw_ex_companies: {{  count($zhtw_ex_companies) }}</div>
+              <div>zhtw_ex_awards: {{  count($zhtw_ex_awards) }}</div>
+              <div>en_ex_awards: {{  count($en_ex_awards) }}</div>
+              <div>zhtw_ex_categories: {{  count($zhtw_ex_categories) }}</div>
+            @endif
         </footer>
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
