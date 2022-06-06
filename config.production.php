@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://astounding-toffee-23ac3c.netlify.app',
+    'baseUrl' => 'https://netlify1.ashura.dev/',
     'production' => true,
 ];
